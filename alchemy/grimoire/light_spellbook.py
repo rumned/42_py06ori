@@ -2,4 +2,5 @@ import elements
 import alchemy.elements
 
 
-def light_spell_allowed_ingredients()
+def light_spell_allowed_ingredients() -> list[str] :
+    return ["earth", "air", "fire", "water"]
